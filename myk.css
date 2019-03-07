@@ -1,0 +1,18 @@
+#kontener
+{
+    height:400px;
+     width:600px;
+    background-color:red;
+    display:flex;
+    align-items: center;
+    margin: auto;
+}
+#dziecko
+{
+    height:350px;
+    width:300px;
+    background-color: aquamarine;
+    display:flex;
+    align-items: center;
+    margin:auto;
+}
