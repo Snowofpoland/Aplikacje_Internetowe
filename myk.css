@@ -1,18 +1,26 @@
 #kontener
 {
-    height:400px;
-     width:600px;
-    background-color:red;
-    display:flex;
-    align-items: center;
-    margin: auto;
+    
+    display:grid;
+    
 }
 #dziecko
 {
-    height:350px;
-    width:300px;
+    height:150px;
+    width:150px;
     background-color: aquamarine;
-    display:flex;
-    align-items: center;
-    margin:auto;
+    grid-column-start: 1;
+    justify-self: end;
+  
+    
+    
+    
+}
+#d2{
+    
+    height: 150px;
+    width: 150px;
+    background-color:red;
+    grid-column-start: 2;
+     
 }
